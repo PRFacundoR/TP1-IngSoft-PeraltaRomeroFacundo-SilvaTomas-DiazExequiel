@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dgGwdKFm6Io=",
+  "dgSpecHash": "HQiAmKNZTkQ=",
   "success": true,
-  "projectFilePath": "c:\\Users\\diaza\\source\\repos\\IS\\ISTP1\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft.Tests\\TP1-IngSoft.Tests.csproj",
+  "projectFilePath": "C:\\Users\\diaza\\source\\repos\\IS\\ISTP1\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft.Tests\\TP1-IngSoft.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diaza\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\diaza\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",

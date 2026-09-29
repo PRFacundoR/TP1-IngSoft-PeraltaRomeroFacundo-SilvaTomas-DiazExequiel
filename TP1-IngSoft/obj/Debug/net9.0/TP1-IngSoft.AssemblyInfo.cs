@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP1-IngSoft")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f6735b1f785224efc755e482185fc32fda19f1c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e227aa335ee5683408e06543632b3e5cdd358f1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP1-IngSoft")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP1-IngSoft")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

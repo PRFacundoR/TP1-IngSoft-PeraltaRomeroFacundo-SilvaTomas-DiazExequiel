@@ -1,7 +1,4 @@
 namespace TP1_IngSoft;
-
-
-
 public class Tienda
 {
     // El inventario es una lista privada de objetos tipo Producto
@@ -48,10 +45,24 @@ public class Tienda
         throw new ArgumentException("Producto inexistente"); // Lanza una excepción si no se encuentra
     }
 
-    public  void aplicarDescuento(string nombre, double porcentaje)
+    public void aplicarDescuento(string nombre, double porcentaje)
     {
         Producto producto = BuscarProducto(nombre);
-        
+
         producto.actualizarPrecio(producto.Precio * (1 - porcentaje / 100));
     }
+
+    public double calcularTotalCarrito(List<string> nombresProductos)
+    {
+        double total = 0;
+
+        foreach (string nombre in nombresProductos)
+        {
+            Producto producto = BuscarProducto(nombre);
+            total += producto.Precio;
+        }
+
+        return total;
+    }
+
 }

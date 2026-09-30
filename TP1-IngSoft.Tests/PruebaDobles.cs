@@ -29,6 +29,7 @@ public class PruebaDobles
     public void AplicarDescuento_ActualizaPrecioCorrectamente()
     {
         Tienda tienda = new Tienda();
+        
         Producto producto =
             new Producto("Auto", 1000.0, "Juguetes");
 

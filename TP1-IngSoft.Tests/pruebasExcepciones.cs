@@ -9,12 +9,10 @@ public class PruebasExcepciones
     [Fact]
     public void TestPrecioExcepcion()
     {
-       
         Producto producto = new Producto("Producto1", 10.0, "Categoria1");
         
-        Assert.Throws<ArgumentException>(() => producto.actualizarPrecio(-100.0));
-
-
+        Assert.Throws<ArgumentException>(
+            () => producto.actualizarPrecio(-100.0));
     }
 
     [Fact]
@@ -22,16 +20,31 @@ public class PruebasExcepciones
     {
         Tienda tienda = new Tienda();
 
-        Assert.Throws<ArgumentException>(() => tienda.EliminarProducto("productoInexistente"));
+        Assert.Throws<ArgumentException>(
+            () => tienda.EliminarProducto("productoInexistente"));
     }
 
     [Fact]
     public void TestBuscarProductoException()
     {
         Tienda tienda = new Tienda();
-        
-        Assert.Throws<Exception>(() => tienda.BuscarProducto("productoInexistente"));
+
+        Assert.Throws<Exception>(
+            () => tienda.BuscarProducto("productoInexistente"));
     }
+
+    [Fact]
+    public void PrecioNegativo_LanzaExcepcion()
+    {
+        Producto producto =
+            new Producto("Mouse", 100, "Perifericos");
+
+        Assert.Throws<ArgumentException>(
+            () => producto.actualizarPrecio(-50)
+        );
+    }
+
+
 }
 
 

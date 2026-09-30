@@ -12,7 +12,11 @@ public class PruebaDobles
      
         var tienda = new Tienda();
 
-        var productoFalso = Substitute.For<Producto>("Auto", 1000.0, "Juguetes");
+        var productoFalso =
+            Substitute.For<Producto>(
+                "Auto",
+                1000.0,
+                "Juguetes");
 
         tienda.AgregarProducto(productoFalso);
 

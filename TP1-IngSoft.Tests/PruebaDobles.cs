@@ -9,7 +9,6 @@ public class PruebaDobles
     [Fact]
     public void TestDouble()
     {
-     
         var tienda = new Tienda();
 
         var productoFalso =
@@ -21,10 +20,26 @@ public class PruebaDobles
         tienda.AgregarProducto(productoFalso);
 
         tienda.aplicarDescuento("Auto", 10.0);
-        
+
         productoFalso.Received(1).actualizarPrecio(900.0);
 
     }
+
+    [Fact]
+    public void AplicarDescuento_ActualizaPrecioCorrectamente()
+    {
+        Tienda tienda = new Tienda();
+        Producto producto =
+            new Producto("Auto", 1000.0, "Juguetes");
+
+        tienda.AgregarProducto(producto);
+
+        tienda.aplicarDescuento("Auto", 10.0);
+
+        Assert.Equal(900.0, producto.Precio);
+    }
+
+
 }
 
 /*

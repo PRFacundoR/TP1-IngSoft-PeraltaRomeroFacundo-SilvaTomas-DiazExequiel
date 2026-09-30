@@ -48,8 +48,6 @@ public class Tienda
         throw new ArgumentException("Producto inexistente"); // Lanza una excepción si no se encuentra
     }
 
-
-
     public  void aplicarDescuento(string nombre, double porcentaje)
     {
         Producto producto = BuscarProducto(nombre);

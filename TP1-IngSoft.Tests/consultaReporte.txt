@@ -1,2 +1,0 @@
-start CoverageReport\index.html
-

@@ -9,25 +9,53 @@
 
 # PARA EJECUTAR LOS TEST
 
+
+
+
 # PASO 1
 
-AQUI EJECUTAMOS LOS TEST Y LOS RESULTADOS SE GUARDAN EN LA CARPETA TESTRESULTS
+PARA EJECUTAR PRUEBA:
+ir a al directorio
+\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\TP1-IngSoft.Tests>
 
-dotnet test --collect:"XPlat Code Coverage" -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.IncludeTestAssembly=true
+**UnistTest1 - Punto 1**
+dotnet test --filter "FullyQualifiedName~TP1_IngSoft.UnitTest1"
+
+**PruebaDobles - Punto 2**
+dotnet test --filter "FullyQualifiedName~TP1_IngSoft.PruebaDobles"
+
+**PruebasExcepciones - Punto 3**
+dotnet test --filter "FullyQualifiedName~TP1_IngSoft.pruebasExcepciones"
+
+**PruebasFixture - Punto 4**
+dotnet test --filter "FullyQualifiedName~TP1_IngSoft.PruebasFixture"
+
+**PruebasIntegracion - Punto 5**
+dotnet test --filter "FullyQualifiedName~TP1_IngSoft.PruebasIntegracion"
 
 
-# PASO 1.1
-
-PARA EJECUTAR UN ARCHIVO ESPECIFICO USAR EL COMANDO
-
-dotnet test --filter "FullyQualifiedName~namespace.class"
 
 
-# PASO 2
+# HERRAMIENTA VISUAL DE PORCENTAJES
 
-AQUI EJECUTAMOS LA HERRAMIENTA "reportgenerator" QUE UTILIZA LOS RESULTADOS Y LOS MUESTRA EN LOS ARCHIVOS HTML DE FORMA LIMPIA
+**PARA EJECUTAR LA HERRAMIENTA VISUAL**
 
+Ir a la ruta, todos los comandos se ejecutan desde la carpeta raiz
+\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel
+
+INSTALAR HERRAMIENTA VISUAL
+dotnet tool install --global dotnet-reportgenerator-globaltool
+
+EJECUTAR PARA RECOLECTAR DATOS
+dotnet test ".\TP1-IngSoft.Tests\TP1-IngSoft.Tests.csproj" --collect:"XPlat Code Coverage" --results-directory ".\TestResults"
+
+EJECUTAR PARA ARMAR EL REPORTE
 reportgenerator "-reports:TestResults/**/coverage.cobertura.xml" "-targetdir:CoverageReport" "-reporttypes:Html;TextSummary"
+
+
+EJECUTAR PARA ABRIR EL HTML
+start CoverageReport\index.html
+
 
 
 # RESPUESTAS A PREGUNTAS CONCEPTUALES

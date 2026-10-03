@@ -20,9 +20,19 @@ public class PruebasExcepciones
     {
         Tienda tienda = new Tienda();
 
+        tienda.AgregarProducto(
+            new Producto("Mouse", 1000, "Perifericos")
+        );       
+
         Assert.Throws<ArgumentException>(
             () => tienda.EliminarProducto("productoInexistente"));
+
+            bool resultado = tienda.EliminarProducto("Mouse");
+
+        Assert.True(resultado);
     }
+
+ 
 
     [Fact]
     public void TestBuscarProductoException()

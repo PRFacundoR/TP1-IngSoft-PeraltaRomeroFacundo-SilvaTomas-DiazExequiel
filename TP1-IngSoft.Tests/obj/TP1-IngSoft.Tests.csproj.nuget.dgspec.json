@@ -1,39 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diaza\\source\\repos\\IS\\ISTP1\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft.Tests\\TP1-IngSoft.Tests.csproj": {}
+    "C:\\Users\\Facu\\Downloads\\Nueva carpeta\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft.Tests\\TP1-IngSoft.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diaza\\source\\repos\\IS\\ISTP1\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft.Tests\\TP1-IngSoft.Tests.csproj": {
+    "C:\\Users\\Facu\\Downloads\\Nueva carpeta\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft.Tests\\TP1-IngSoft.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diaza\\source\\repos\\IS\\ISTP1\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft.Tests\\TP1-IngSoft.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Facu\\Downloads\\Nueva carpeta\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft.Tests\\TP1-IngSoft.Tests.csproj",
         "projectName": "TP1-IngSoft.Tests",
-        "projectPath": "C:\\Users\\diaza\\source\\repos\\IS\\ISTP1\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft.Tests\\TP1-IngSoft.Tests.csproj",
-        "packagesPath": "C:\\Users\\diaza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diaza\\source\\repos\\IS\\ISTP1\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft.Tests\\obj\\",
+        "projectPath": "C:\\Users\\Facu\\Downloads\\Nueva carpeta\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft.Tests\\TP1-IngSoft.Tests.csproj",
+        "packagesPath": "C:\\Users\\Facu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Facu\\Downloads\\Nueva carpeta\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft.Tests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\diaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Facu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\diaza\\source\\repos\\IS\\ISTP1\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft\\TP1-IngSoft.csproj": {
-                "projectPath": "C:\\Users\\diaza\\source\\repos\\IS\\ISTP1\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft\\TP1-IngSoft.csproj"
+              "C:\\Users\\Facu\\Downloads\\Nueva carpeta\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft\\TP1-IngSoft.csproj": {
+                "projectPath": "C:\\Users\\Facu\\Downloads\\Nueva carpeta\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft\\TP1-IngSoft.csproj"
               }
             }
           }
@@ -48,10 +43,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
@@ -91,36 +87,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\diaza\\source\\repos\\IS\\ISTP1\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft\\TP1-IngSoft.csproj": {
+    "C:\\Users\\Facu\\Downloads\\Nueva carpeta\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft\\TP1-IngSoft.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diaza\\source\\repos\\IS\\ISTP1\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft\\TP1-IngSoft.csproj",
+        "projectUniqueName": "C:\\Users\\Facu\\Downloads\\Nueva carpeta\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft\\TP1-IngSoft.csproj",
         "projectName": "TP1-IngSoft",
-        "projectPath": "C:\\Users\\diaza\\source\\repos\\IS\\ISTP1\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft\\TP1-IngSoft.csproj",
-        "packagesPath": "C:\\Users\\diaza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diaza\\source\\repos\\IS\\ISTP1\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft\\obj\\",
+        "projectPath": "C:\\Users\\Facu\\Downloads\\Nueva carpeta\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft\\TP1-IngSoft.csproj",
+        "packagesPath": "C:\\Users\\Facu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Facu\\Downloads\\Nueva carpeta\\TP1-IngSoft-PeraltaRomeroFacundo-SilvaTomas-DiazExequiel\\TP1-IngSoft\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\diaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Facu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {}
           }
@@ -135,10 +126,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "imports": [
             "net461",
@@ -156,7 +148,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

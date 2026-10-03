@@ -67,7 +67,7 @@ public class PruebasFixture
         tienda.AgregarProducto(...);
     }
 
-    El TearDown es la limpieza que se hace despies del test
+    El TearDown es la limpieza que se hace despues del test
 
     La caja negra diseña los casos a partir de entradas, salidas
     y como se comporta el test pero es independiente de la

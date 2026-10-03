@@ -1,0 +1,44 @@
+# =========================
+# .NET - Compilación
+# =========================
+
+**/bin/
+**/obj/
+
+# =========================
+# Visual Studio / VS Code
+# =========================
+
+.vs/
+.vscode/
+
+# =========================
+# Tests / resultados
+# =========================
+
+TestResults/
+
+# =========================
+# Code Coverage
+# =========================
+
+CoverageReport/
+
+*.coverage
+*.coveragexml
+coverage.cobertura.xml
+
+# =========================
+# Archivos temporales
+# =========================
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Logs
+# =========================
+
+*.log
